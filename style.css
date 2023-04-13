@@ -1,0 +1,20 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #e15f41;
+}
+
+header h1 {
+  font-family: "Pacifico", cursive;
+}
+
+.nav .nav-item a {
+  color: #fff;
+}
+
+.nav .nav-item a.active {
+  color: #e15f41;
+  background-color: white;
+}
