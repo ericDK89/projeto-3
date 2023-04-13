@@ -6,10 +6,6 @@ header {
   background-color: #e15f41;
 }
 
-header h1 {
-  font-family: "Pacifico", cursive;
-}
-
 .nav .nav-item a {
   color: #fff;
 }
@@ -17,4 +13,21 @@ header h1 {
 .nav .nav-item a.active {
   color: #e15f41;
   background-color: white;
+}
+
+.section-title {
+  font-family: "Pacifico", cursive;
+}
+
+.section-title span {
+  color: #e15f41;
+}
+
+#about-the-restaurant article {
+  background-color: #ffeae6;
+}
+
+#events h3 {
+  font-family: "Pacifico", cursive;
+  color: #e15f41;
 }
