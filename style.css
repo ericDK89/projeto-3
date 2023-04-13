@@ -19,15 +19,31 @@ header {
   font-family: "Pacifico", cursive;
 }
 
-.section-title span {
-  color: #e15f41;
-}
-
-#about-the-restaurant article {
+#about-the-restaurant article,
+#food-menu {
   background-color: #ffeae6;
 }
 
 #events h3 {
   font-family: "Pacifico", cursive;
+  color: #e15f41;
+}
+
+#food-menu h3,
+.text-colored,
+.section-title span {
+  color: #e15f41;
+}
+
+.nav-menu-food .nav-link.active {
+  background-color: #e15f41;
+  color: #fff;
+}
+
+.nav-menu-food .nav-link.active:hover {
+  color: #fff;
+}
+
+.nav-menu-food .nav-link:hover {
   color: #e15f41;
 }
